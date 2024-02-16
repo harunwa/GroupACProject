@@ -1,0 +1,149 @@
+header{
+  padding:10px;
+  text-align:center;
+  font-weight: bold;
+    font-style: italic;
+}
+
+body{
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no_repeat;
+  text-shadow: 2px 2px 2px black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#fe8141;
+  text-align: center;
+  
+}
+
+a{
+  text-shadow: 3px 3px 3px black;
+  font-size:large;
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#fe8141;
+}
+
+.navtext{
+  text-shadow: 3px 3px 3px black;
+  font-size:xx-large;
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#fe8141;
+}
+
+hr{
+  border-color: #fe8141;
+}
+
+li {
+    display: inline-block;
+    /* top and bottom | left and right */
+    margin: 0 10px;
+  
+  }
+
+.selected{
+    text-shadow: 3px 3px 3px black;
+    font-size:xx-large;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fe8141;
+    margin: 0;
+    
+    padding: 8px;
+    border: 1px solid rgb(202, 108, 0) ;
+    border-radius: 20px;
+}    
+
+.Leilaimg{
+  border: 1px solid black;
+  padding: 1em;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}  
+
+.mainlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+    box-shadow:black;
+}
+
+.menuitem p{
+    display: inline-block; 
+}
+
+.drink {
+    text-align: left;
+    width: 75%;
+
+}
+
+.price {
+    text-align: right;
+
+    width: 25%
+  }
+
+.container {
+    display: flex;
+}
+.container div {
+    border: 1px solid rgb(202, 108, 0) ;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-section{
+    padding: 50px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+} 
+
+  
+nav{
+    padding:10px;
+
+    text-align:center;
+    background-color: rgba(27, 24, 24, 0.85);
+
+}
+
+.menu{
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    background-color: rgba(27, 24, 24, 0.85);
+    width: 75%;
+
+
+}
+
+.banner h2{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro{
+  padding-top: 50px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  font-style:italic;
+}
